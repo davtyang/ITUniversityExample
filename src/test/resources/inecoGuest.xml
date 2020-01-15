@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name=" Regression" verbose="0">
+<parameter name="environment" value="dev"/>
+  <test name="Ineco" preserve-order="true">
+    <classes>
+      <class name="am.ituniversity.qa.ineco.guest.InecoMenuTests">
+      <methods >
+     <!--  <include name="clientCreatesIncompleteHROffer"/>
+      <include name="clientSubmitsHROffer"/>--> 
+       </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
